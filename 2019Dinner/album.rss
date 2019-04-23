@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:jalbum="http://jalbum.net/jalbumrss">
+    <channel>
+        <title>2019Dinner</title>
+   	<link>.</link>
+        <generator>jAlbum 12</generator>
+   		<description></description>
+        <jalbum:absolutePath></jalbum:absolutePath>
+        <!-- <item>
+            <title>DSC_0323</title>
+            <link>slides/DSC_0323.html</link>
+            <pubDate>Fri, 09 May 2014 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/DSC_0323.JPG" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/DSC_0323.JPG" width="640" height="425"/>
+            <jalbum:original url="hi-res/DSC_0323.JPG" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/DSC_0323.JPG</guid>
+        </item> -->
+        
+        <item>
+            <title>2019_dinner_1.jpg</title>
+            <link>slides/2019_dinner_1.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_1.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_1.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_1.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_1.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_2.jpg</title>
+            <link>slides/2019_dinner_2.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_2.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_2.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_2.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_2.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_3.jpg</title>
+            <link>slides/2019_dinner_3.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_3.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_3.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_3.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_3.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_4.jpg</title>
+            <link>slides/2019_dinner_4.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_4.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_4.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_4.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_4.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_5.jpg</title>
+            <link>slides/2019_dinner_5.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_5.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_5.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_5.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_5.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_6.jpg</title>
+            <link>slides/2019_dinner_6.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_6.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_6.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_6.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_6.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_7.jpg</title>
+            <link>slides/2019_dinner_7.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_7.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_7.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_7.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_7.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_8.jpg</title>
+            <link>slides/2019_dinner_8.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_8.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_8.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_8.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_8.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_9.jpg</title>
+            <link>slides/2019_dinner_9.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_9.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_9.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_9.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_9.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_10.jpg</title>
+            <link>slides/2019_dinner_10.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_10.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_10.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_10.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_10.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_11.jpg</title>
+            <link>slides/2019_dinner_11.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_11.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_11.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_11.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_11.jpg</guid>
+        </item>
+
+        <item>
+            <title>2019_dinner_12.jpg</title>
+            <link>slides/2019_dinner_12.html</link>
+            <pubDate>Tues, 23 April 2019 07:44:54 -0400</pubDate>
+            <description></description>
+            <media:description type="html"></media:description>
+            <media:thumbnail url="thumbs/2019_dinner_12.jpg" width="90" height="90"/>
+            <media:content type="image/jpeg" url="slides/2019_dinner_12.jpg" width="640" height="425"/>
+            <jalbum:original url="hi-res/2019_dinner_12.jpg" width="4288" height="2848" fileSize="5338464"/>
+            <jalbum:exif originalDate="3/22/14 4:43 PM" cameraMake="NIKON CORPORATION" cameraModel="NIKON D90"/>
+            <guid isPermaLink="false">slides/2019_dinner_12.jpg</guid>
+        </item>
+
+    </channel>
+</rss>
