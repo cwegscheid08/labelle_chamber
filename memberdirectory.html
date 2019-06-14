@@ -6,6 +6,9 @@
 		<link rel="stylesheet" type="text/css" href="style/chamber.css">
 
 		<script src="style/sorttable.js"></script>
+		<script src="style/member_search.js"></script>
+		<script src="style/say_hello.js"></script>
+		<script src="style/table_change.js"></script>
 
 		<title>Greater LaBelle Chamber Of Commerce</title>
 	</head>
@@ -32,8 +35,36 @@
 		</div>
 		    
 		<div id="content">
+
+			<!-- FORM AREA FOR SEARCH -->
+
+			<!-- FOR THIS I AM GONNA HAVE TO RUN A SEARCH OF EACH ITTERATION OF
+			THE FOURTH COLUMN OF THE MEMBERS DIRECTORY, EXCLUDING CELLS THAT ARE NILL.  THE ONLY THINGS I CAN THINK OF THAT SEPERATES OUT THAT COLUMN AS UNIQUE WOULD BE HIDDEN SOMEWHERE IN THE TABLE HEAD.  SOMETHING MAYBE IN THE WAY THAT THAT COLUMN IS TITLED. IF I COULD RUN A SEARCH THAT TAKES EACH ITTERATION, SAVES IT IN AN ARRAY IF IT IS UNIQUE.  THE TABLE HEAD LABEL FOR THAT COLUMN IS 'TYPE', WHICH HAS THE SORTABLE GEM ATTACHED TO IT, SO SOMEHOW THEY WERE ABLE TO CATALOG THAT COLUMN BASED ON SOLELY THAT NAME.  THAT FILE IS IN 'STYLE/SORTTABLE.JS'. -->
+
+			<div class="input_form">
+				<!-- <select onchange="memberSearch()" id="myDropdown">
+					
+				</select> -->
+
+				<input type="text" id="myInput" onkeyup="memberSearch()" placeholder="Search for type...">
+
+				<div class="radio_form" onclick="memberSearch()">
+					<form id="myRadio">
+						<table border="0">
+							<tr>
+								<td><input type="radio" name="column_choice" value="0" checked>Member</td>
+								<td><input type="radio" name="column_choice" value="1">Contact Name</td>
+							</tr>
+							<tr>	
+								<td><input type="radio" name="column_choice" value="2">Contact</td>
+								<td><input type="radio" name="column_choice" value="3">Type</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div><br><br>
 		     
-			<table class="sortable" style="width: 85%; margin: auto; border: 1px black solid">
+			<table id="memberTable" class="sortable" style="width: 85%; margin: auto; border: 1px black solid">
 				<caption>Proud Members of the Greater LaBelle Chamber of Commerce</caption>
 				<thead>
 					<tr style="background-color:#B4BFE8">
@@ -1760,10 +1791,10 @@
 				    <td>Real Estate</td>
 				</tr>
 				<tr>
-					<td><a target="_blank" href="https://www.wegscheidwebservices.com">Wegscheid Web Services</a></td>
-					<td>Wegscheid, Christopher</td>
-					<td>(863)-673-6419</td>
-					<td>Web Developer</td>
+						<td><a target="_blank" href="https://www.wegscheidwebservices.com">Wegscheid Web Services</a></td>
+						<td>Wegscheid, <span onclick="sayHello()">Christopher</span></td>
+						<td>(863)-673-6419</td>
+						<td>Web Developer</td>
 				</tr>
 				<tr>
 					<td><a target="_blank" href="http://www.whispercreek.com">Whisper Creek RV Resort</a></td>
