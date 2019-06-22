@@ -2,8 +2,18 @@
 /* CSS Document */
 
 body 			{	/*background-color: #ceebfff5;*/
-					background-image: linear-gradient( 106.2deg, rgba(220,234,249,0.35) 10.9%, rgba(57,153,255,1) 84.4% );
+
+					/*WHITE TO LIGHT BLUE GRADIENT*/
+					/*background-image: linear-gradient( 106.2deg, rgba(220,234,249,0.35) 10.9%, rgba(57,153,255,1) 84.4% );*/
+
+					/*LIGHT GREEN/TEAL GRADIENT*/
 					/*background-image: radial-gradient( circle 944px at 0.9% 0%, rgba(143,216,255,1) 0%, rgba(199,236,188,1) 100.2% );*/
+
+					/*DARK BLUE GRADIENT*/
+					background-image: radial-gradient( circle farthest-corner at 10% 20%, #1880b8 0%, #221c6a 90% );
+
+					/*BLUE WITH A LINE THROUGH IT*/
+					/*background-image: linear-gradient( 109.6deg, rgba(86,97,179,1) 61.4%, rgba(76,81,191,1) 61.5% );*/
 					font-family: Raleway, sans-serif;
 					background-attachment: fixed;	}
 					
@@ -38,12 +48,17 @@ a:active { 	color: #FFFFFF;	}
 					width: 960px;
 					height: 40px;
 					margin: auto;
-					font-weight: 200;
+					font-weight: 400;
 					font-size: 18px;
 					letter-spacing: 1px;
 					word-spacing: 2px;
-					position: sticky;	}
+					margin-left: 232px;
+					//position: relative;	}
 					
+.sticky			{	position: fixed;
+					top: 0;
+					width: 100%;	}
+
 #content		{	//background-color: #577284;
 					width: 960px;
 					margin: auto;
@@ -125,7 +140,7 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 	-webkit-backdrop-filter: blur(2px);
 	backdrop-filter: blur(2px);
 	position: relative;
-	background-color: rgba(255, 255, 255, 0.25);
+	background-color: rgba(255, 255, 255, 0.45);
 	z-index: -1;
 	border-radius: 0px 0px 6px 6px;
 }
@@ -158,8 +173,8 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 .background {
 	position: absolute;
 	z-index: -1;
-	width: 100%;
-	min-height: 175%;
+	/*width: 100%;
+	min-height: 175%;*/
 	margin: 0% 0px 0px 30%;
 	background-image: url("City-of-Labelle-logo-2.png");
 	background-repeat: no-repeat;
@@ -169,13 +184,15 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 }
 
 .filter {
-	-webkit-backdrop-filter: blur(8px);
-	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 	/*min-height: 175%;*/
 	/*width: 960px;*/
 	position: absolute;
-	background-color: #577284;
-	opacity: 0.75;
+	background-color: rgba(255,255,255,0.8);
+	/*background-image: linear-gradient( 106.2deg, rgba(220,234,249,0.35) 10.9%, rgba(57,153,255,1) 84.4% );*/
+
+	opacity: 0.5;
 	z-index: -1;
 }
 
@@ -190,9 +207,24 @@ table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sor
 
 .logo {
 	font-size: 30px;
-	font-weight: 200;
-	color: white;
+	font-weight: 400;
+	color: #16214F;
+	/*animation: cubic-bezier(0,0,2,3);
+	animation-duration: 2s;
+	animation-name: logo-animation;*/
 }
+
+/*@keyframes logo-animation {
+	from { color: white; }
+	to { color: black; }
+}*/
+
+.sub-logo {
+	font-size: 20px;
+	font-weight: 200;
+	color: black;
+}
+
 
 
 /*
