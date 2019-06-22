@@ -9,17 +9,18 @@ let memberSearch = function() {
 	radio = document.getElementById('myRadio');
 
 
-	if(radio[0].checked) {
-		column = radio[0].value;
-	} else if(radio[1].checked) {
+	if(radio[1].checked) {
 		column = radio[1].value;
 	} else if(radio[2].checked) {
 		column = radio[2].value;
 	} else if(radio[3].checked) {
 		column = radio[3].value;
+	} else if(radio[4].checked) {
+		column = radio[4].value;
 	} else {
 		column = null;
 	}
+
 
 
 	for(i = 0; i < tr.length; i++) {

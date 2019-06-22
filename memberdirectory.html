@@ -5,6 +5,8 @@
 
 		<link rel="stylesheet" type="text/css" href="style/chamber.css">
 
+		<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400&display=swap" rel="stylesheet">
+
 		<script src="style/sorttable.js"></script>
 		<script src="style/member_search.js"></script>
 		<script src="style/say_hello.js"></script>
@@ -34,23 +36,29 @@
 		 </div>
 		</div>
 		    
+		<div class="background"></div>
 		<div id="content">
+
+			<div class="filter"></div>
 
 			<!-- FORM AREA FOR SEARCH -->
 
-			<!-- FOR THIS I AM GONNA HAVE TO RUN A SEARCH OF EACH ITTERATION OF
-			THE FOURTH COLUMN OF THE MEMBERS DIRECTORY, EXCLUDING CELLS THAT ARE NILL.  THE ONLY THINGS I CAN THINK OF THAT SEPERATES OUT THAT COLUMN AS UNIQUE WOULD BE HIDDEN SOMEWHERE IN THE TABLE HEAD.  SOMETHING MAYBE IN THE WAY THAT THAT COLUMN IS TITLED. IF I COULD RUN A SEARCH THAT TAKES EACH ITTERATION, SAVES IT IN AN ARRAY IF IT IS UNIQUE.  THE TABLE HEAD LABEL FOR THAT COLUMN IS 'TYPE', WHICH HAS THE SORTABLE GEM ATTACHED TO IT, SO SOMEHOW THEY WERE ABLE TO CATALOG THAT COLUMN BASED ON SOLELY THAT NAME.  THAT FILE IS IN 'STYLE/SORTTABLE.JS'. -->
 
 			<div class="input_form">
 				<!-- <select onchange="memberSearch()" id="myDropdown">
 					
 				</select> -->
 
-				<input type="text" id="myInput" onkeyup="memberSearch()" placeholder="Search for type...">
+				<div class="radio_form">
 
-				<div class="radio_form" onclick="memberSearch()">
-					<form id="myRadio">
+					
+
+				
+					<form id="myRadio" onclick="memberSearch()">
 						<table border="0">
+							<tr>
+								<td><input type="text" id="myInput" onkeyup="memberSearch()" placeholder="Search for type..."></td>
+							</tr>
 							<tr>
 								<td><input type="radio" name="column_choice" value="0" checked>Member</td>
 								<td><input type="radio" name="column_choice" value="1">Contact Name</td>
@@ -59,15 +67,20 @@
 								<td><input type="radio" name="column_choice" value="2">Contact</td>
 								<td><input type="radio" name="column_choice" value="3">Type</td>
 							</tr>
+							<tr>
+								<td><input type="button" class="button" value="Reset" onclick="location.reload()"></td>
+								<td>&nbsp;</td>
+							</tr>
 						</table>
 					</form>
 				</div>
-			</div><br><br>
+			</div><br><br><br><br><br><br>
 		     
 			<table id="memberTable" class="sortable" style="width: 85%; margin: auto; border: 1px black solid">
 				<caption>Proud Members of the Greater LaBelle Chamber of Commerce</caption>
 				<thead>
-					<tr style="background-color:#B4BFE8">
+					<!-- <tr style="background-color:#B4BFE8"> -->
+						<tr style="background-color:#bbc7cd">
 						<th width="30%">Member</th>
 						<th width="27%">Contact Name</th>
 					    <th width="18%" class="sorttable_nosort">Contact</th>
@@ -170,7 +183,7 @@
 				</tr>
 				<tr>
 					<td>Avellaneda Psychological</td>
-				    <td>Avellaneda, Victoria</td>.
+				    <td>Avellaneda, Victoria</td>
 				    <td>(863)902-1512</td>
 				    <td>Psychological Services</td>
 				</tr>
@@ -444,6 +457,13 @@
 					<td>(863)675-2613</td>
 				    <td>Dry Cleaners</td>
 				</tr>
+				<tr>
+					<td>Democratic Woman's Club of Hendry Co.</td>
+					<td>Novosad, Laura L.</td>
+					<td>(239)-298-1542</td>
+					<td>Club</td>
+				</tr>
+				<tr>
 					<td>Dena Pittman</td>
 				    <td>Pittman, Dena</td>
 				    <td>(863)228-0981<br />or <a href="mailto:dpittman@hendrypa.com">email</a></td>
@@ -829,12 +849,12 @@
 					<td>(320)260-0777</td>
 				    <td>Booster</td>
 				</tr>
-				<tr>
+<!-- 				<tr>
 					<td><a target="_blank" href="http://www.jimgreenrealty.com/">Jim Green Realty</a></td>
 					<td>Green, Jim </td>
 					<td>(239)728-5481</td>
 				    <td>Real Estate</td>
-				</tr>
+				</tr> -->
 				<!-- <tr>
 					<td>John &amp; Marty Cowen</td>
 				    <td>Cowen, John</td>
@@ -900,60 +920,12 @@
 					<td>(941)-575-2544</td>
 					<td>Real Estate</td>
 				</tr>
-
-
-				<!-- NEW ADDITION -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<!-- NEW ADDITION -->
-
 				<tr>
 					<td><a href="https://paradisedreamhomes.net">Keller Williams Peace Rivers Partners</a></td>
 					<td>Mertens, Lori Ann</td>
 					<td>(941)-875-9060</td>
 					<td>Real Estate</td>
 				</tr>
-
-				<!-- NEW ADDITION -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 				<tr>
 					<td><a target="_blank" href="http://www.kinetico.com">Kinetico Quality Water</a></td>
 					<td>Kelley, Rick </td>
@@ -1237,12 +1209,12 @@
 					<td>(863)675-1105</td>
 				    <td>Agriculture</td>
 				</tr>
-				<!-- <tr>
+				<tr>
 					<td><a target="_blank" href="http://www.nancydalephd.com">Nancy Dale, Phd</a></td>
 					<td>Dale, Nancy </td>
 					<td>(863)214-8351</td>
 				    <td>Author</td>
-				</tr> -->
+				</tr>
 				<!-- <tr>
 					<td>Nathan's Barber Cuts</td>
 				    <td>Powers, Nathan</td>
@@ -1591,12 +1563,12 @@
 					<td>&nbsp;</td>
 				    <td>Agriculture</td>
 				</tr> -->
-				<tr>
+<!-- 				<tr>
 					<td><a target="_blank" href="http://www.searshometownstores.com/locations/la-belle-fl">Sears Hometown of LaBelle</a></td>
 					<td>Peregrin, Daniel & Elizabeth </td>
 					<td>(863)675-0050</td>
 				    <td>Retail</td>
-				</tr>
+				</tr> -->
 				<!-- <tr>
 					<td><a target="_blank" href="http://www.sherwin-williams.com">Sherwin-Williams</a></td>
 					<td>Paidas, Matt </td>
@@ -1666,8 +1638,8 @@
 				</tr>
 
 				<tr>
-					<td><a target="_blank" href="http://www.cabbagefestival.org">Swamp Cabbage Festival, Inc</a></td>
-					<td>Humphries, Martha </td>
+					<td><a target="_blank" href="http://www.swampcabbagefestival.org">Swamp Cabbage Festival, Inc</a></td>
+					<td>Wilkins, Julie </td>
 					<td>(863)675-2995</td>
 				    <td>Entertainment</td>
 				</tr>
@@ -1785,16 +1757,22 @@
 				    <td>Real estate</td>
 				</tr>
 				<tr>
+					<td><a target="_blank" href="https://www.webinfused.com/">WebInfused, LLC</a></td>
+					<td>Cook, Dave & Kathy</td>
+					<td>(863)-231-8491</td>
+					<td>Web Development & Digital Media</td>
+				</tr>
+				<tr>
 					<td><a target="_blank" href="http://www.wegscheidappraisal.com">Wegscheid Appraisal &amp; Real Estate, Inc.</a></td>
 				    <td>Wegscheid, Scott</td>
 				    <td>(863)675-0189</td>
 				    <td>Real Estate</td>
 				</tr>
 				<tr>
-						<td><a target="_blank" href="https://www.wegscheidwebservices.com">Wegscheid Web Services</a></td>
-						<td>Wegscheid, <span onclick="sayHello()">Christopher</span></td>
-						<td>(863)-673-6419</td>
-						<td>Web Developer</td>
+					<td><a target="_blank" href="https://www.wegscheidwebservices.com">Wegscheid Web Services</a></td>
+					<td>Wegscheid, <span onclick="sayHello()">Christopher</span></td>
+					<td>(863)-673-6419</td>
+					<td>Web Developer</td>
 				</tr>
 				<tr>
 					<td><a target="_blank" href="http://www.whispercreek.com">Whisper Creek RV Resort</a></td>
