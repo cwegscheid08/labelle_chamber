@@ -32,6 +32,34 @@
 		</div>
 		    
 		<div id="content">
+
+			<div class="input_form">
+				<!-- <select onchange="memberSearch()" id="myDropdown">
+					
+				</select> -->
+
+				<div id="radio_form" class="radio_form">
+					<form id="myRadio" onclick="memberSearch()">
+						<table border="0">
+							<tr>
+								<td><input type="text" id="myInput" onkeyup="memberSearch()" placeholder="Search for type..."></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="column_choice" value="0" checked>Member</td>
+								<td><input type="radio" name="column_choice" value="1">Contact Name</td>
+							</tr>
+							<tr>	
+								<td><input type="radio" name="column_choice" value="2">Contact</td>
+								<td><input type="radio" name="column_choice" value="3">Type</td>
+							</tr>
+							<tr>
+								<td><input type="button" class="button" value="Reset" onclick="location.reload()"></td>
+								<td>&nbsp;</td>
+							</tr>
+						</table>
+					</form>
+				</div>
+			</div><br><br><br><br><br><br>
 		     
 			<table class="sortable" style="width: 85%; margin: auto; border: 1px black solid">
 				<caption>Proud Members of the Greater LaBelle Chamber of Commerce</caption>
