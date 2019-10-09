@@ -21,6 +21,7 @@ let memberSearch = function() {
 		column = null;
 	}
 
+	
 
 
 	for(i = 0; i < tr.length; i++) {
